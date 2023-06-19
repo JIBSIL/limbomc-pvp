@@ -1,0 +1,10 @@
+[workspace]
+members = ["crates/*"]
+exclude = ["rust-mc-bot"]
+resolver = "2"
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.dev]
+opt-level = 1
